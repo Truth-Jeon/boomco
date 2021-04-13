@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+html, body{height: 100%}
+
+#wrap{position:absolute;left:0;top:0;right:0;bottom:0;width:100%;height:100%;margin:0 auto;overflow:auto;}
+
+.main {width:auto; min-width: 400px; max-width: 700px; background-color: #aaa;}
+
+.link_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    color:#505050;
+    font-size:17px;
+    font-weight:500;
+    height: 20px;
+    width: 100%; max-width: 500px;
+}
+
+.link_contents {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* ellipsis line */
+    -webkit-box-orient: vertical;
+
+    color:#777b86;
+    font-size:12px;
+    margin-top: 3px;
+    /*height: 50px;*/
+    width: 100%; max-width: 500px;
+}
+

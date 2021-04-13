@@ -1,0 +1,159 @@
+ul li{
+  list-style:none;
+  float: left;
+  margin-left: 40px;
+  font-family:'Malgun Gothic';
+  font-weight:bolder;
+  font-size: 20px;
+}
+.main1{
+  margin-top:300px;
+  float:left;
+}
+.main2{
+  margin-top:300px;
+  float:right;
+}
+.main1 h1{
+  display: inline;
+}
+.sub{
+  padding:30px;
+  width:100%;
+  background-color:red;
+  text-align: center;
+}
+.partners{
+  text-align: center;
+  padding:30px;
+}
+.partners>img{
+  text-align: center;
+  padding:15px;
+  width:300px;
+  height:150px;
+}
+.partners2{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.videos{
+  text-align: center;
+  vertical-align: center;
+  padding:20px;
+}
+.videos2{
+  text-align: center;
+  vertical-align: center;
+  margin-top:115px;
+}
+.copy{
+    width: 30px;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.rounded{
+    border-radius: 10px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  background-color: white;
+}
+.shadow{
+  box-shadow: 1px grey;
+  border-radius:10px;
+  padding:10px;
+}
+Col img{
+  background-color: #f2f2f2;
+  resize: both;
+}
+.member{
+  color: #777b86;
+  margin-top:45px;
+  vertical-align: middle;
+  float:left;
+  padding:70px;
+}
+.circle{
+  padding:10px;
+  background-color:#5f636a;
+  border-radius:50%;
+  width:230px;
+  line-height:220px;
+  text-align: center;
+  vertical-align: middle;
+}
+.padding{
+padding:35px;
+}
+.pattern{
+  margin-top:50px;
+  width:1000px;
+  margin: 0 auto;
+}
+#wrap{
+  background-color: #f2f2f2;
+  background-image: url('../Images/std_bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.back2{
+  background-color: white;
+  border:none;
+}
+.back3{
+  background-color: white;
+  border:none;
+}
+.header1{
+  padding-left: 150px;
+  padding-top: 15px;
+  float:left;
+}
+.header2{
+  padding-right: 150px;
+  padding-top: 25px;
+  float:right;
+}
+.footer{
+  color:#777b86;
+  position:relative;
+  left:0;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.loginbottom{
+  border-bottom: 1px solid #777b86;
+}
+.last{
+  padding-top:20px;
+  width:1000px;
+  background-color:#f2f2f2;
+}
+button.arrow{
+  background-color:white;
+  border:none;
+}
+button.arrow.active{
+  background-color:white;
+  border:none;
+}
+.notarrow{
+  background-image:url('../Images/arrow_up.png');
+  background-size:50px 30px;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  content:'';
+  position:relative;
+  top:10px;
+  background-color:white;
+}
+.arrow{
+  background-image:url('../Images/arrow_down.png');
+  content:'';
+}
